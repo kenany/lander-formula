@@ -1,0 +1,27 @@
+{
+  "name": "lander-formula",
+  "version": "0.0.0",
+  "description": "Lander's formula for one-rep max",
+  "keywords": [
+    "weight-training"
+  ],
+  "repository": "KenanY/lander-formula",
+  "license": "MIT",
+  "author": "Kenan Yildirim <kenan@kenany.me> (http://kenany.me/)",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "LICENSE.txt"
+  ],
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tape test/index.js"
+  },
+  "devDependencies": {
+    "almost-equal": "0.0.0",
+    "lodash.isfunction": "^3.0.1",
+    "tape": "^3.5.0"
+  }
+}
