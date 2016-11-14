@@ -17,14 +17,18 @@
     "test": "test"
   },
   "scripts": {
-    "pretest": "eslint *.js test/*.js",
-    "test": "tape test/index.js"
+    "lint": "eslint *.js test/*.js",
+    "tests-only": "tape test/index.js",
+    "coverage": "nyc npm run -s tests-only",
+    "pretest": "npm run -s lint",
+    "test": "npm run -s tests-only"
   },
   "devDependencies": {
     "@kenan/eslint-config": "^4.0.0",
     "almost-equal": "^1.1.0",
     "eslint": "^3.9.1",
     "lodash.isfunction": "^3.0.1",
+    "nyc": "^8.4.0",
     "tape": "^4.6.2"
   }
 }
