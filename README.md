@@ -1,7 +1,6 @@
 # lander-formula
 
 [![Build Status][travis-svg]][travis]
-[![Dependency Status][gemnasium-svg]][gemnasium]
 
 [Lander's formula][1] for one-repetition maximum.
 
@@ -35,5 +34,3 @@ according to Lander's formula as a _Number_.
    [1]: https://en.wikipedia.org/wiki/One-repetition_maximum#Lander
    [travis]: https://travis-ci.org/KenanY/lander-formula
    [travis-svg]: https://img.shields.io/travis/KenanY/lander-formula.svg
-   [gemnasium]: https://gemnasium.com/KenanY/lander-formula
-   [gemnasium-svg]: https://img.shields.io/gemnasium/KenanY/lander-formula.svg
