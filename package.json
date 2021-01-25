@@ -16,12 +16,12 @@
   "directories": {
     "test": "test"
   },
+  "engines": {
+    "node": "10 || 12 || >=14"
+  },
   "scripts": {
     "lint": "eslint *.js test/*.js",
-    "tests-only": "tape test/index.js",
-    "coverage": "nyc npm run -s tests-only",
-    "pretest": "npm run -s lint",
-    "test": "npm run -s tests-only"
+    "test": "nyc tape test/index.js"
   },
   "devDependencies": {
     "@kenan/eslint-config": "^8.0.0",
