@@ -7,7 +7,7 @@
   ],
   "repository": "KenanY/lander-formula",
   "license": "MIT",
-  "author": "Kenan Yildirim <kenan@kenany.me> (http://kenany.me/)",
+  "author": "Kenan Yildirim <kenan@kenany.me> (https://kenany.me/)",
   "main": "index.js",
   "files": [
     "index.js",
@@ -30,6 +30,6 @@
     "eslint": "^7.32.0",
     "lodash.isfunction": "^3.0.9",
     "nyc": "^15.1.0",
-    "tape": "^5.3.1"
+    "tape": "^5.4.0"
   }
 }
