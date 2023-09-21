@@ -1,3 +1,5 @@
+'use strict';
+
 /**
  * Calculates the one-repetition maximum according to Lander's formula.
  *
